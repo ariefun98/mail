@@ -1,0 +1,12 @@
+{
+    "name": "zirvu/mail",
+    "description": "mail",
+    "authors": [
+        {
+            "name": "ariefun98",
+            "email": "zirvu45@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
