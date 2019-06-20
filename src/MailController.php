@@ -9,11 +9,11 @@ use App\Http\Controllers\Controller;
 
 class MailController extends Controller
 {
-	
+
     public function view(Request $request)
     {
-		$message = 'Welcome to mail!';
+		$title = 'Mail';
 		return view('mail::view')
-			->with('message', $message);
+			->with('title', $title);
 	}
 }
